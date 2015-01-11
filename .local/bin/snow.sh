@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
  
 LINES=$(tput lines)
 COLUMNS=$(tput cols)
