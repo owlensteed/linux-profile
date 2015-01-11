@@ -15,9 +15,6 @@ if [ $UID -eq 0 ]; then
   alias mv='mv -i'
 fi
 
-alias staging='ssh -A staging1.va.localdomain'
-alias emperor='ssh -A emperor1.va.localdomain'
-
 [ "$TERM" ] && alias htop='TERM=screen htop'
 
 if [ -f "/bin/firewall-cmd" ] || [ -f "/usr/sbin/csf" ]; then
